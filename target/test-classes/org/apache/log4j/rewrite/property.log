@@ -1,0 +1,2 @@
+INFO RewriteAppenderTest - p1:Hello p2:World Message 0
+INFO RewriteAppenderTest - p1:Hola p2:World Message 1
