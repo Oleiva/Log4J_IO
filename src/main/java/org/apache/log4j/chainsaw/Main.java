@@ -55,7 +55,7 @@ public class Main
 
 
     /**
-     * Creates a new <code>Main</code> instance.
+     * Creates a new <code>Maind</code> instance.
      */
     private Main() {
         super("CHAINSAW - Log4J Log Viewer");

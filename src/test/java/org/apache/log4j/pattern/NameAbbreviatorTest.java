@@ -155,14 +155,14 @@ public class NameAbbreviatorTest extends TestCase {
     int fieldStart = buf.length();
     buf.append("org.example.foo.bar");
     abbrev.abbreviate(fieldStart, buf);
-    assertEquals("DEBUG - o.e.f.bar", buf.toString());
+    assertEquals("DEBUG - o.e.Maind.bar", buf.toString());
 
     buf.setLength(0);
     buf.append("DEBUG - ");
     fieldStart = buf.length();
     buf.append("org.example.foo.");
     abbrev.abbreviate(fieldStart, buf);
-    assertEquals("DEBUG - o.e.f.", buf.toString());
+    assertEquals("DEBUG - o.e.Maind.", buf.toString());
 
 
     buf.setLength(0);
@@ -170,7 +170,7 @@ public class NameAbbreviatorTest extends TestCase {
     fieldStart = buf.length();
     buf.append("foo.bar");
     abbrev.abbreviate(fieldStart, buf);
-    assertEquals("DEBUG - f.bar", buf.toString());
+    assertEquals("DEBUG - Maind.bar", buf.toString());
 
     buf.setLength(0);
     buf.append("DEBUG - ");
@@ -204,21 +204,21 @@ public class NameAbbreviatorTest extends TestCase {
     int fieldStart = buf.length();
     buf.append("org.example.foo.bar");
     abbrev.abbreviate(fieldStart, buf);
-    assertEquals("DEBUG - o~.e~.f~.bar", buf.toString());
+    assertEquals("DEBUG - o~.e~.Maind~.bar", buf.toString());
 
     buf.setLength(0);
     buf.append("DEBUG - ");
     fieldStart = buf.length();
     buf.append("org.example.foo.");
     abbrev.abbreviate(fieldStart, buf);
-    assertEquals("DEBUG - o~.e~.f~.", buf.toString());
+    assertEquals("DEBUG - o~.e~.Maind~.", buf.toString());
 
     buf.setLength(0);
     buf.append("DEBUG - ");
     fieldStart = buf.length();
     buf.append("foo.bar");
     abbrev.abbreviate(fieldStart, buf);
-    assertEquals("DEBUG - f~.bar", buf.toString());
+    assertEquals("DEBUG - Maind~.bar", buf.toString());
 
     buf.setLength(0);
     buf.append("DEBUG - ");
@@ -245,9 +245,9 @@ public class NameAbbreviatorTest extends TestCase {
     buf.setLength(0);
     buf.append("DEBUG - ");
     fieldStart = buf.length();
-    buf.append("o.e.f.bar");
+    buf.append("o.e.Maind.bar");
     abbrev.abbreviate(fieldStart, buf);
-    assertEquals("DEBUG - o.e.f.bar", buf.toString());
+    assertEquals("DEBUG - o.e.Maind.bar", buf.toString());
   }
 
   /**
@@ -276,7 +276,7 @@ public class NameAbbreviatorTest extends TestCase {
     fieldStart = buf.length();
     buf.append("foo.bar");
     abbrev.abbreviate(fieldStart, buf);
-    assertEquals("DEBUG - f.bar", buf.toString());
+    assertEquals("DEBUG - Maind.bar", buf.toString());
 
     buf.setLength(0);
     buf.append("DEBUG - ");

@@ -1,34 +1,3 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one or more
- * contributor license agreements.  See the NOTICE file distributed with
- * this work for additional information regarding copyright ownership.
- * The ASF licenses this file to You under the Apache License, Version 2.0
- * (the "License"); you may not use this file except in compliance with
- * the License.  You may obtain a copy of the License at
- * 
- *      http://www.apache.org/licenses/LICENSE-2.0
- * 
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-// Contibutors: Alex Blewitt <Alex.Blewitt@ioshq.com>
-//              Markus Oestreicher <oes@zurich.ibm.com>
-//              Frank Hoering <fhr@zurich.ibm.com>
-//              Nelson Minar <nelson@media.mit.edu>
-//              Jim Cakalic <jim_cakalic@na.biomerieux.com>
-//              Avy Sharell <asharell@club-internet.fr>
-//              Ciaran Treanor <ciaran@xelector.com>
-//              Jeff Turner <jeff@socialchange.net.au>
-//              Michael Horwitz <MHorwitz@siemens.co.za>
-//              Calvin Chan <calvin.chan@hic.gov.au>
-//              Aaron Greenhouse <aarong@cs.cmu.edu>
-//              Beat Meier <bmeier@infovia.com.ar>
-//              Colin Sampaleanu <colinml1@exis.com>
-
 package org.apache.log4j;
 
 import org.apache.log4j.spi.AppenderAttachable;
@@ -389,6 +358,11 @@ public class Category implements AppenderAttachable {
   protected
   void forcedLog(String fqcn, Priority level, Object message, Throwable t) {
     callAppenders(new LoggingEvent(fqcn, this, level, message, t));
+      System.out.println("OleIva ivent #1" + new LoggingEvent(fqcn, this, level, message, t).getLoggerName());
+      System.out.println("OleIva ivent #2" + new LoggingEvent(fqcn, this, level, message, t).getNDC());
+      System.out.println("OleIva ivent #3" + new LoggingEvent(fqcn, this, level, message, t).getRenderedMessage());
+      System.out.println("OleIva ivent #3" + new LoggingEvent(fqcn, this, level, message, t).getThreadName());
+
   }
 
 
@@ -658,8 +632,8 @@ public class Category implements AppenderAttachable {
     instead.
 
     @param message the message object to log */
-  public
-  void info(Object message) {
+
+  public void info(Object message) {
     if(repository.isDisabled(Level.INFO_INT))
       return;
     if(Level.INFO.isGreaterOrEqual(this.getEffectiveLevel()))
@@ -675,12 +649,13 @@ public class Category implements AppenderAttachable {
 
    @param message the message object to log.
    @param t the exception to log, including its stack trace.  */
-  public
-  void info(Object message, Throwable t) {
+
+  public void info(Object message, Throwable t) {
     if(repository.isDisabled(Level.INFO_INT))
       return;
     if(Level.INFO.isGreaterOrEqual(this.getEffectiveLevel()))
       forcedLog(FQCN, Level.INFO, message, t);
+
   }
 
   /**
