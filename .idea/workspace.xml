@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ce2b6fb-d9a3-4373-93d3-04ffd9daefbb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_20.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/NOTICE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/NOTICE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/org.apache.log4j.AsyncAppenderTestCase.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1384011234696605204tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3498404498139343774tmp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log4j.iml" afterPath="$PROJECT_DIR$/log4j.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/Category.java" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/Category.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/chainsaw/Main.java" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/chainsaw/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/lf5/StartLogFactor5.java" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/lf5/StartLogFactor5.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java" afterPath="$PROJECT_DIR$/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/apache/log4j/pattern/NameAbbreviatorTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/apache/log4j/pattern/NameAbbreviatorTest.java" />
     </list>
     <ignored path="log4j.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,12 +25,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="SenderSSL.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/oleiva/SenderSSL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="181">
+              <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+              <folding>
+                <element signature="e#1492#1683#0" expanded="true" />
+                <element signature="e#1682#1683#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,6 +176,90 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Log4J_IO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log4j" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Log4J_IO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log4j" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Log4J_IO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log4j" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Log4J_IO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log4j" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Log4J_IO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oleiva" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -845,7 +914,7 @@
       <workItem from="1466702031980" duration="1583000" />
       <workItem from="1466798315544" duration="580000" />
       <workItem from="1466975026012" duration="1893000" />
-      <workItem from="1466977143089" duration="9571000" />
+      <workItem from="1466977143089" duration="9759000" />
     </task>
     <servers />
   </component>
@@ -858,7 +927,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22423000" />
+    <option name="totallyTimeSpent" value="22611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1154,17 +1223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/oleiva/SenderSSL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
-          <folding>
-            <element signature="e#1492#1683#0" expanded="true" />
-            <element signature="e#1682#1683#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/github/dblock/oshi-core/2.6.2/oshi-core-2.6.2.jar!/oshi/hardware/HardwareAbstractionLayer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1298,6 +1356,17 @@
         <state relative-caret-position="272">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/oleiva/SenderSSL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+          <folding>
+            <element signature="e#1492#1683#0" expanded="true" />
+            <element signature="e#1682#1683#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
